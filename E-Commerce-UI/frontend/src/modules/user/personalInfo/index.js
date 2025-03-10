@@ -1,0 +1,1 @@
+export { UserPersonalInfo } from './UserPersonalInfo';

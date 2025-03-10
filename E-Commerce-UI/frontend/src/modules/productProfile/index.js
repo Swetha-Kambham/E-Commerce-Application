@@ -1,0 +1,1 @@
+export { ProductProfile } from './ProductProfile';

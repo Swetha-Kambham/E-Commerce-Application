@@ -1,0 +1,11 @@
+ [
+  { "id": "freecharge", "name": "FreeCharge" },
+  { "id": "mobikwik", "name": "MobiKwik" },
+  { "id": "ola", "name": "Ola Money" },
+  { "id": "jio", "name": "Reliance Jio Money" },
+  { "id": "airtel", "name": "Airtel Money" },
+  { "id": "paytm", "name": "Paytm" },
+  { "id": "amazon", "name": "Amazon Pay" },
+  { "id": "phonepe", "name": "PhonePe" },
+  { "id": "gpay", "name": "Google Pay" }
+]

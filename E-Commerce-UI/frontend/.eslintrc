@@ -1,0 +1,54 @@
+{
+  "parser": "babel-eslint",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extenstion": [".js", ".jsx", ".ts", ".tsx", ".json", ".graphql"],
+        "paths": "src"
+      }
+    }
+  },
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "prettier/react",
+    "plugin:react/recommended",
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/typescript"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+    "import",
+    "jsx-a11y",
+    "react-hooks",
+    "react-perf",
+    "graphql"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "overrides": [],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "no-console": 1,
+    "import/prefer-default-export": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-unused-vars": "error",
+    "react/prop-types": 1,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "import/no-useless-path-segments": "off",
+    "react/jsx-props-no-spreading": "off",
+    "func-names": "off",
+    "radix": "off"
+  }
+}
